@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
 
 <BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ericsoares.agenda.fx.MainController">
 	<center>
 		<Label BorderPane.alignment="CENTER" text="Região central"></Label>
 	</center>
 	<top>
-		<Label BorderPane.alignment="CENTER" text="Região superior"></Label>
+		<HBox>
+			<children>
+				<Label text="Cabeçalho"></Label>
+				<Button text="Butão"></Button>
+			</children>
+		</HBox>
 	</top>
 	<bottom>
 		<Label BorderPane.alignment="CENTER" text="Região footer"></Label>
